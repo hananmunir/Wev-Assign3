@@ -1,0 +1,50 @@
+.container {
+  height: 63vh;
+}
+
+.footer * {
+  color: #000;
+}
+.footer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 30px 0;
+  background: linear-gradient(
+    rgba(216, 206, 206, 0.1),
+    rgba(245, 238, 238, 0.1)
+  );
+}
+.footer h4 {
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.fa {
+  cursor: pointer;
+  padding-top: 25px;
+  margin: 0 25px;
+  transition: 0.5s;
+}
+
+.footer .fa:hover {
+  color: #122c82;
+  transform: translateY(-7px);
+}
+
+#insta:hover {
+  color: #fb3958;
+}
+
+#yt:hover {
+  color: rgb(199, 43, 43);
+}
+
+#twitter:hover {
+  color: #1da1f2;
+}
+
+#linkedin:hover {
+  color: rgba(66, 140, 231, 0.842);
+}
